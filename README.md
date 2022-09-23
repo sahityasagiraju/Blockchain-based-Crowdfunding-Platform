@@ -2,7 +2,6 @@
 
 **This program is a SMART CONTRACT wriiten in Solidity language using Remix IDE**
 
-How It works :-
 Initially using constructor the owner addres, deadline, target, and minimum contribution to be done by contributor is saved in state variable.
 
 The contributor contributes using contribute() function in crowd funding. If the deadline is not over and the funds are meeting the minimum requirements then the address and value is stored in state variable mapping.
